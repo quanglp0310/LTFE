@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+  background-color: #f2f9fa;
+  height: 500px;
+}
+.header {
+  background-image: url(../images/background02.jpg);
+  background-size: cover;
+  text-align: center;
+  border-bottom: 4px solid #fff;
+}
+.header .container::after {
+  content: "";
+  opacity: 0.2;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -1px;
+  margin-left: -1px;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.info-student {
+  text-align: center;
+  padding: 70px 0 90px 0;
+}
+.title-school {
+  font-size: 16px;
+  font-weight: 00;
+  color: #fff;
+  background-color: #00000082;
+  padding: 5px 0;
+}
+.info-student h1 {
+  font-size: 40px;
+  color: #fff;
+}
+.info-student h4 {
+  font-size: 20px;
+  color: #fff;
+  margin: 20px 0;
+}
+.img-avatar {
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.body .img {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -98px;
+  z-index: 1;
+}
+.dashboard-heading {
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.dashboard-desc {
+  color: rgb(71, 71, 71);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.profile-boxed {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(153 196 227 / 25%) 0px 2px 8px;
+  border-radius: 7px;
+  padding: 30px 50px 50px 50px;
+}
+.profile-info {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(222, 225, 243);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.profile-info-media {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.layout-form-group {
+  margin-bottom: 25px;
+}
+
+.form_input {
+  color: #000;
+  font-weight: 400;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+
+  font-size: 18px;
+  padding: 10px 50px 10px 10px;
+  width: 100%;
+  transition: box-shadow 0.15s ease;
+  border: 0;
+  box-shadow: 0 1px 3px rgb(50 50 93 / 15%), 0 1px 0 rgb(0 0 0 / 2%);
+}
+.form-control-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.dashboard-heading-small {
+  color: rgb(84, 84, 84);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.form-control-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #525f7f;
+  padding-bottom: 5px;
+}
+.album img {
+  object-fit: cover;
+  width: 100%;
+}
+#img-1 {
+  height: 500px;
+}
+#img-2 {
+  height: 190px;
+}
+#img-3,
+#img-4,
+#img-5,
+#img-6 {
+  height: 150px;
+}
+#img-7 {
+  height: 190px;
+}
+#img-8 {
+  height: 300px;
+}
